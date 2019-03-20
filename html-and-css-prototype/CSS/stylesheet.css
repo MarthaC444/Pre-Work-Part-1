@@ -1,3 +1,5 @@
+/* I made changes to CSS above "Your CSS code here". Removed Fonts h1 section: I didn't use it. Added background-color and font-size to body. Added background-color to .container.  */
+
 /* Global resets */
 * {
 	box-sizing: border-box;
@@ -6,28 +8,17 @@
 }
 
 body {
-	/* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+    font-family: 'Molengo', 'Open Sans', sans-serif; /* These fonts look more like the example. */
 	color: #424242;
 	line-height: 1.4;
-
-    font-family: 'Molengo', 'Open Sans', sans-serif; /* These fonts look more like the example. */
 	background-color: black;
 	font-size: 28px;
-}
-
-/* Fonts */
-h1 {
-	/* font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif; */
-
-	font-size: 2.5em;
-	font-weight: bold;
 }
 
 .container {
 	margin: 2em auto;
 	max-width: 630px;
 	text-align: center;
-	
 	background-color: white;
 }
 
@@ -53,16 +44,12 @@ h1 {
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-	/* background-color: blue; */
 }
 
 .center-container {
 	border: 2px solid lightgray;
-	/* margin: 25px 0px; */
 	padding: 30px;
 	color:#777;
-
-	/* justify-content: flex-start; */
 }
 
 .speech-bubble {
@@ -105,7 +92,6 @@ h1 {
 
 #box-2 {
 	height: 25px;
-	/* background-color: blue; */
  	flex-basis: 30%;
 }
 
@@ -144,7 +130,6 @@ input::placeholder {
 	height: 100px;
 	border-radius: 7px;
 	border-style: solid;
-	/* border-color:#1CBC2C; */
 	background-color: #1CBC2C;
 	color: white;
 	font-size: 36px;
@@ -154,7 +139,6 @@ input::placeholder {
 	width: 220px;
 	height: 100px;
 	border-radius: 7px;
-
 }
 
 a {
@@ -177,5 +161,4 @@ a {
 	border-radius: 7%;
 	font-size: 28px;
 	color:#777;
-
 }
