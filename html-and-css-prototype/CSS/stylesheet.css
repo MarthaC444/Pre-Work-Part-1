@@ -53,6 +53,7 @@ h1 {
 	text-align: left;
 	display: flex;
 	flex-direction: column;
+	/* background-color: blue; */
 }
 
 .center-container {
@@ -120,6 +121,17 @@ h1 {
 	padding-bottom: 25px;
 }
 
+input {
+	border-style: solid;
+	border-color: lightgray;
+}
+
+input::placeholder {
+	font-size: 36px;
+	font-weight: bold;
+	
+}
+
 .give-container {
 	display: flex;
 	flex-direction: row;
@@ -131,6 +143,8 @@ h1 {
 	width: 220px;
 	height: 100px;
 	border-radius: 7px;
+	border-style: solid;
+	/* border-color:#1CBC2C; */
 	background-color: #1CBC2C;
 	color: white;
 	font-size: 36px;
@@ -155,6 +169,13 @@ a {
 
 .bottom-button {
 	height: 75px;
-	width: 150px;
+	width: 250px;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgray;
+	border-radius: 7%;
+	font-size: 28px;
+	color:#777;
 
 }
