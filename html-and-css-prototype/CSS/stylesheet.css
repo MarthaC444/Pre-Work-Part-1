@@ -6,14 +6,19 @@
 }
 
 body {
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	/* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
 	color: #424242;
 	line-height: 1.4;
+
+    font-family: 'Molengo', 'Open Sans', sans-serif; /* These fonts look more like the example. */
+	background-color: black;
+	font-size: 28px;
 }
 
 /* Fonts */
 h1 {
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	/* font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif; */
+
 	font-size: 2.5em;
 	font-weight: bold;
 }
@@ -22,6 +27,8 @@ h1 {
 	margin: 2em auto;
 	max-width: 630px;
 	text-align: center;
+	
+	background-color: white;
 }
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
@@ -40,3 +47,114 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.flex-container {
+	padding: 7%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.center-container {
+	border: 2px solid lightgray;
+	/* margin: 25px 0px; */
+	padding: 30px;
+	color:#777;
+
+	/* justify-content: flex-start; */
+}
+
+.speech-bubble {
+	background-color: #424242;
+	border-radius: 7px;
+	text-align: center;
+	color: white;
+	font-size: 32px;
+	padding: 25px;
+}
+
+/* .speech-bubble .arrow {
+ border-style: solid;
+}
+
+.bottom {
+	border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+.right {
+
+} */
+
+#box-container {
+	display: flex;
+	flex-direction: row;
+	border-width: 2px 2px 0px 2px; 
+	border-style: solid;
+	border-color: lightgrey;
+
+}
+
+#box-1 {
+	height: 25px;
+	background-color: #EF5F3C;
+	flex-basis: 70%;
+}
+
+#box-2 {
+	height: 25px;
+	/* background-color: blue; */
+ 	flex-basis: 30%;
+}
+
+.time-text {
+	padding-bottom: 25px;
+}
+
+.time-text strong {
+	color: #EF5F3C;
+}
+
+.message-text {
+	padding-bottom: 25px;
+}
+
+.give-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+
+.give-button {
+	width: 220px;
+	height: 100px;
+	border-radius: 7px;
+	background-color: #1CBC2C;
+	color: white;
+	font-size: 36px;
+}
+
+.give-field {
+	width: 220px;
+	height: 100px;
+	border-radius: 7px;
+
+}
+
+a {
+	color: #20A1D4;
+}
+
+.bottom-button-container {
+	display: flex;
+	margin: 30px 0px;
+	justify-content: space-between;
+}
+
+.bottom-button {
+	height: 75px;
+	width: 150px;
+
+}
