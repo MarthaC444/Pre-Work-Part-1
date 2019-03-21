@@ -1,4 +1,4 @@
-/* I made changes to CSS above "Your CSS code here". Removed Fonts h1 section: I didn't use it. Added background-color and font-size to body. Added background-color to .container.  */
+/* I made changes to CSS above "Your CSS code here". Removed Fonts h1 section: I didn't use it. Added background-color and font-size to body. Added background-color to .container. Added new google font.  */
 
 /* Global resets */
 * {
@@ -8,10 +8,10 @@
 }
 
 body {
-    font-family: 'Molengo', 'Open Sans', sans-serif; /* These fonts look more like the example. */
+    font-family: 'Molengo', 'Open Sans', sans-serif;
 	color: #424242;
 	line-height: 1.4;
-	background-color: black;
+	background-color: #000000;
 	font-size: 28px;
 }
 
@@ -19,7 +19,7 @@ body {
 	margin: 2em auto;
 	max-width: 630px;
 	text-align: center;
-	background-color: white;
+	background-color: #FFFFFF;
 }
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
@@ -47,7 +47,7 @@ body {
 }
 
 .center-container {
-	border: 2px solid lightgray;
+	border: 2px solid #D3D3D3;
 	padding: 30px;
 	color:#777;
 }
@@ -56,32 +56,37 @@ body {
 	background-color: #424242;
 	border-radius: 7px;
 	text-align: center;
-	color: white;
+	color: #FFFFFF;
 	font-size: 32px;
 	padding: 25px;
 }
 
-/* .speech-bubble .arrow {
- border-style: solid;
+.arrow {
+	position: relative;
+	padding: 25px;
+	border-radius: 3px;
 }
 
-.bottom {
-	border-color: #c8c8c8 transparent transparent transparent;
-    border-width: 8px 8px 0px 8px;
-    bottom: -8px;
+.arrow:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 60px;
+	bottom: -10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid #424242;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
 }
-
-.right {
-
-} */
 
 #box-container {
 	display: flex;
 	flex-direction: row;
 	border-width: 2px 2px 0px 2px; 
 	border-style: solid;
-	border-color: lightgrey;
-
+	border-color: #D3D3D3;
+	margin-top: 20px;
 }
 
 #box-1 {
@@ -109,7 +114,7 @@ body {
 
 input {
 	border-style: solid;
-	border-color: lightgray;
+	border-color: #D3D3D3;
 }
 
 input::placeholder {
@@ -131,7 +136,7 @@ input::placeholder {
 	border-radius: 7px;
 	border-style: solid;
 	background-color: #1CBC2C;
-	color: white;
+	color: #FFFFFF;
 	font-size: 36px;
 }
 
@@ -147,17 +152,17 @@ a {
 
 .bottom-button-container {
 	display: flex;
-	margin: 30px 0px;
+	margin-top: 35px;
 	justify-content: space-between;
 }
 
 .bottom-button {
 	height: 75px;
 	width: 250px;
-	background-color: white;
+	background-color: #FFFFFF;
 	border-style: solid;
 	border-width: 2px;
-	border-color: lightgray;
+	border-color: #D3D3D3;
 	border-radius: 7%;
 	font-size: 28px;
 	color:#777;
